@@ -63,6 +63,7 @@ main .content h1 span{
 main .content p {
     color: var(--Slightly-transparent-white-main-paragraph);
     margin: 2rem 5.5rem 2rem 0;
+    line-height: 1.5rem;
 }
 
 main .content ul {
@@ -77,14 +78,14 @@ main .content ul li {
     display: flex;
     flex-direction: column;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 main .content ul li span {
     font-family: 'Lexend Deca', sans-serif;
     text-transform: uppercase;
     color: var(--Slightly-transparent-white-main-paragraph);
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: 400;
     margin-top: .5rem;
 }
@@ -145,23 +146,16 @@ footer .attribution a {
     }
     
     main .content p {
-        margin: .5rem .2rem;
-        line-height: 1.5rem;
+        margin: .5rem .8rem;
     }
     
     main .content ul {
-        display: flex;
         flex-direction: column;
         margin: 1rem auto;
         align-items: center;
-        justify-content: space-between;
     }
     
     main .content ul li {
-        display: flex;
-        flex-direction: column;
-        font-weight: 700;
-        font-size: 1.3rem;
         margin: 1rem auto;
     }
     
